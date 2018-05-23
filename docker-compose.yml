@@ -1,0 +1,59 @@
+  odk_mysql:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: odk_root!
+      MYSQL_DATABASE: odk_1_4_12
+      MYSQL_USER: odk_usr
+      MYSQL_PASSWORD: odk_usr_123
+    hostname: mysql
+    ports:
+    - "3306:3306"
+    expose:
+    - "3306"
+    restart: always
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --max_allowed_packet=1073741824 --bind_address=*
+    volumes:
+      - C:\F4W\Docker\ODK\Mysql\conf\:/etc/mysql/mysql.conf.d/
+  odk_tomcat855:
+    image: tomcat:8.5.5 
+    hostname: tomcat855
+    ports:
+    - "8080:8080"
+    - "8443:8443"
+    volumes:
+    - C:\F4W\Docker\ODK\tomcat\webapps:/usr/local/tomcat/webapps
+    - C:\F4W\Docker\ODK\tomcat\logs:/usr/local/tomcat/logs
+    - C:\F4W\Docker\ODK\tomcat\conf:/usr/local/tomcat/conf
+    restart: always
+    links:
+    - odk_mysql
+  logger_MongoDB:
+    image: mongo
+    hostname: mongoDB
+    ports:
+    - "27017:27017"
+    expose:
+    - "27017"
+    command: -smallfiles -nojournal
+  logger_tomcat9:
+    image: tomcat:9.0 
+    hostname: tomcat900
+    ports:
+    - "8100:8080"
+    - "8453:8443"
+    volumes:
+    - C:\F4W\Docker\logger\tomcat\webapps:/usr/local/tomcat/webapps
+    - C:\F4W\Docker\logger\tomcat\logs:/usr/local/tomcat/logs
+    - C:\F4W\Docker\logger\tomcat\conf:/usr/local/tomcat/conf
+    links:
+    - logger_MongoDB
+  training_BB_php:
+    image: webgriffe/php-apache-base  
+    hostname: training_BB_php
+    ports:
+    - "8110:80"
+    volumes:
+    - C:\F4W\Docker\Moodle\www:/var/www/html
+    - C:\F4W\Docker\Moodle\data:/media/moodleData
+    links:
+    - odk_mysql
