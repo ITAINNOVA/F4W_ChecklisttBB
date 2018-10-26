@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Basic Example 1</h:title>
+    <model>
+      <instance>
+        <BasicExample_1.0 id="forms.wp6.f4w.itainnova.es:BasicExample_1.0" version="2017011801">
+          <start/>
+          <end/>
+          <today/>
+          <deviceid/>
+          <subscriberid/>
+          <simserial/>
+          <phonenumber/>
+          <backgroundInformationNote/>
+          <currentWork/>
+          <yearsWorking/>
+          <age/>
+          <gender/>
+          <multipleChoiceNote/>
+          <workDays/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </BasicExample_1.0>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/BasicExample_1.0/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/BasicExample_1.0/end" type="dateTime"/>
+      <bind jr:preload="date" jr:preloadParams="today" nodeset="/BasicExample_1.0/today" type="date"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/BasicExample_1.0/deviceid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="subscriberid" nodeset="/BasicExample_1.0/subscriberid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="simserial" nodeset="/BasicExample_1.0/simserial" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/BasicExample_1.0/phonenumber" type="string"/>
+      <bind nodeset="/BasicExample_1.0/backgroundInformationNote" readonly="true()" type="string"/>
+      <bind nodeset="/BasicExample_1.0/currentWork" type="string"/>
+      <bind nodeset="/BasicExample_1.0/yearsWorking" type="decimal"/>
+      <bind nodeset="/BasicExample_1.0/age" type="int"/>
+      <bind nodeset="/BasicExample_1.0/gender" type="select1"/>
+      <bind nodeset="/BasicExample_1.0/multipleChoiceNote" readonly="true()" type="string"/>
+      <bind nodeset="/BasicExample_1.0/workDays" type="select"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/BasicExample_1.0/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/BasicExample_1.0/backgroundInformationNote">
+      <label>Backgroud Information</label>
+    </input>
+    <input ref="/BasicExample_1.0/currentWork">
+      <label>I'm currently working as:</label>
+    </input>
+    <input ref="/BasicExample_1.0/yearsWorking">
+      <label>I'm working there since (years):</label>
+    </input>
+    <input ref="/BasicExample_1.0/age">
+      <label>I'm … years old:</label>
+    </input>
+    <select1 ref="/BasicExample_1.0/gender">
+      <label>My gender is:</label>
+      <item>
+        <label>Male</label>
+        <value>male</value>
+      </item>
+      <item>
+        <label>Female</label>
+        <value>female</value>
+      </item>
+    </select1>
+    <input ref="/BasicExample_1.0/multipleChoiceNote">
+      <label>For texting purposes</label>
+    </input>
+    <select ref="/BasicExample_1.0/workDays">
+      <label>Which days do you work a week?</label>
+      <item>
+        <label>Monday</label>
+        <value>monday</value>
+      </item>
+      <item>
+        <label>Tuesday</label>
+        <value>tuesday</value>
+      </item>
+      <item>
+        <label>Wednesday</label>
+        <value>wednesday</value>
+      </item>
+      <item>
+        <label>Thursday</label>
+        <value>thursday</value>
+      </item>
+      <item>
+        <label>Friday</label>
+        <value>friday</value>
+      </item>
+      <item>
+        <label>Saturday</label>
+        <value>saturday</value>
+      </item>
+      <item>
+        <label>Sunday</label>
+        <value>sunday</value>
+      </item>
+    </select>
+  </h:body>
+</h:html>

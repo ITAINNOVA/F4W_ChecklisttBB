@@ -1,0 +1,22 @@
+<?xml version='1.0' ?>
+<BasicExample_2.0 id="forms.wp6.f4w.itainnova.es:BasicExample_2.0" version="2017011801">
+<start>2017-01-18T11:57:16.764+01</start>
+<end>2017-01-18T11:57:39.462+01</end>
+<today>2017-01-18</today>
+<deviceid>357379060342356</deviceid>
+<subscriberid>214033530140059</subscriberid>
+<simserial>8934013171450150608</simserial>
+<phonenumber />
+
+<backgroundInformationNote />
+<currentWork>Qwerty</currentWork>
+<yearsWorking>12.0</yearsWorking>
+<age>45</age>
+<gender>female</gender>
+<multipleChoiceNote />
+<workDays>wednesday thursday friday</workDays>
+
+<meta>
+	<instanceID>uuid:3d53dab9-494c-4c6e-b9ec-1073e6efcbe5</instanceID>
+</meta>
+</BasicExample_2.0>

@@ -1,0 +1,43 @@
+<?xml version='1.0' ?>
+<BasicExample_6.0 id="forms.wp6.f4w.itainnova.es:BasicExample_6.0" version="2017011801">
+	<start>2017-01-18T15:56:54.481+01</start>
+	<end>2017-01-18T15:57:46.755+01</end>
+	<today>2017-01-18</today>
+	<deviceid>357379060342356</deviceid>
+	<simserial>8934013171450150608</simserial>
+	<phonenumber />
+	<backgroundInformation>
+		<backgroundInformationNote />
+		<personalData>
+			<yearOfBorn>1973-09-19</yearOfBorn>
+			<gender>male</gender>
+		</personalData>
+		
+		<workingData>
+			<yearsInCompany>1</yearsInCompany>
+			<currentWork>Team Leader</currentWork>
+			<workingHereFor>1</workingHereFor>
+			<yearsWorking>1</yearsWorking>
+			<workDays>monday tuesday friday</workDays>
+		</workingData>
+	</backgroundInformation>
+
+	<surveyDisclamer>
+		<multipleChoiceNote />
+		<iHaveVoluntaryParticipation>1</iHaveVoluntaryParticipation>
+		<iGotInformed>1</iGotInformed>
+		<availableTime>1.5</availableTime>
+	</surveyDisclamer>
+	<survey>
+		<TAMPerceivedUSelfunesNote />
+		<usefulSystemForDailyOperation>iStronglyDisagree</usefulSystemForDailyOperation>
+		<systemDecreasesWorkload>iDisagree</systemDecreasesWorkload>
+		<improveDoSomethingMakingUseAbilities>neitherAgreeNorDisagree</improveDoSomethingMakingUseAbilities>
+		<improveNewBetterWays>iAgree</improveNewBetterWays>
+	</survey>
+	<Picture_example />
+	<Video_Example />
+	<meta>
+		<instanceID>uuid:cee2020b-d5ee-4709-baee-9dbf13d01a50</instanceID>
+	</meta>
+</BasicExample_6.0>

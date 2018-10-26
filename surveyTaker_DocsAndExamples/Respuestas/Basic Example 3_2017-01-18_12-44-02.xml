@@ -1,0 +1,27 @@
+<?xml version='1.0' ?>
+<BasicExample_3.0 id="forms.wp6.f4w.itainnova.es:BasicExample_3.0" version="2017011801">
+	<start>2017-01-18T12:44:02.822+01</start>
+	<end>2017-01-18T12:44:46.384+01</end>
+	<today>2017-01-18</today>
+	<devideid>357379060342356</devideid>
+	<subscriberid>214033530140059</subscriberid>
+	<simserial>8934013171450150608</simserial>
+	<phonenumber />
+	
+	<backgroundInformationNote />
+	<yearsInCompany>12</yearsInCompany>
+	<currentWork>Testear 3</currentWork>
+	<yearsWorking>12</yearsWorking>
+	<age>52</age>
+	<gender>male</gender>
+	<multipleChoiceNote />
+	<workDays>wednesday thursday saturday</workDays>
+	<TAMPerceivedUSelfunesNote />
+	<usefulSystemForDailyOperation>iStronglyDisagree</usefulSystemForDailyOperation>
+	<systemDecreasesWorkload>iDisagree</systemDecreasesWorkload>
+	<improveDoSomethingMakingUseAbilities>neitherAgreeNorDisagree</improveDoSomethingMakingUseAbilities>
+	<improveNewBetterWays>iAgree</improveNewBetterWays>
+	<meta>
+		<instanceID>uuid:cebe4b85-000d-4e37-906a-f2db2a950f10</instanceID>
+	</meta>
+</BasicExample_3.0>

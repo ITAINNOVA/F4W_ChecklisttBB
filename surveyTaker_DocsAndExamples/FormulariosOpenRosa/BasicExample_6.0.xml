@@ -1,0 +1,675 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Basic Example 6</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="default">
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/yearsWorking:jr:requiredMsg">
+            <value>Please, tell us how long do you work at the current position.</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/systemDecreasesWorkload:label">
+            <value>The system decreases my workload (if negative, implies added effort due to the system)</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/personalData/gender/female:label">
+            <value>Female</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveNewBetterWays:label">
+            <value>The system improves the chance to develop new and better ways to do the job</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveNewBetterWays/neitherAgreeNorDisagree:label">
+            <value>Neither agree nor disagree</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/personalData:jr:requiredMsg">
+            <value>-</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities/neitherAgreeNorDisagree:label">
+            <value>Neither agree nor disagree</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/currentWork:label">
+            <value>I'm currently working as:</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities/iAgree:label">
+            <value>I agree</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/iGotInformed/0:label">
+            <value>No</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation:label">
+            <value>Background Information</value>
+          </text>
+          <text id="/BasicExample_6.0/Video_Example:label">
+            <value form="video">jr://video/video.mp4</value>
+            <value>Video example</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/TAMPerceivedUSelfunesNote:label">
+            <value>TAM Perceived uselfuness</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays/tuesday:label">
+            <value>Tuesday</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/iHaveVoluntaryParticipation:label">
+            <value>I am voluntarily participating</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities:label">
+            <value>The system improves the chance to do something that make use of my abilities</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer:label">
+            <value>Survey Disclamer:</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveNewBetterWays/iStronglyAgree:label">
+            <value>I strongly agree</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveNewBetterWays/iStronglyDisagree:label">
+            <value>I strongly disagree</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/iGotInformed/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/iGotInformed:label">
+            <value>I were informed about the proposal of this survey</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/multipleChoiceNote:label">
+            <value>By positive answering this questions I am accepting I am voluntary participating on this survey.</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays/wednesday:label">
+            <value>Wednesday</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays/sunday:label">
+            <value>Sunday</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/personalData/gender:label">
+            <value>My gender is:</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/iHaveVoluntaryParticipation/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/systemDecreasesWorkload/iStronglyAgree:label">
+            <value>I strongly agree</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveNewBetterWays/iAgree:label">
+            <value>I agree</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/systemDecreasesWorkload/iAgree:label">
+            <value>I agree</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/availableTime:label">
+            <value>I'll be available for:</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities/iStronglyAgree:label">
+            <value>I strongly agree</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/yearsWorking:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/currentWork:hint">
+            <value>Please, describe in a few words your position.</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays/monday:hint">
+            <value>Please, check it if you usually work on Monday</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/yearsWorking:label">
+            <value>I'm working there since (years):</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/iHaveVoluntaryParticipation/0:label">
+            <value>No</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData:jr:requiredMsg">
+            <value>-</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/usefulSystemForDailyOperation/iStronglyAgree:label">
+            <value>I strongly agree</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/personalData/gender/male:label">
+            <value>Male</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities/iStronglyDisagree:label">
+            <value>I strongly disagree</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays/friday:label">
+            <value>Friday</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/usefulSystemForDailyOperation/neitherAgreeNorDisagree:label">
+            <value>Neither agree nor disagree</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/usefulSystemForDailyOperation/iDisagree:label">
+            <value>I disagree</value>
+          </text>
+          <text id="/BasicExample_6.0/Picture_example:label">
+            <value form="image">jr://images/image.jpg</value>
+            <value>Picture Example</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/systemDecreasesWorkload/neitherAgreeNorDisagree:label">
+            <value>Neither agree nor disagree</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays/saturday:label">
+            <value>Saturday</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays/thursday:label">
+            <value>Thursday</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/usefulSystemForDailyOperation:label">
+            <value>Overall, the system is useful for daily operations</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workingHereFor:label">
+            <value>I'm working here for:</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/yearsInCompany:label">
+            <value>Years in the Company:</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/iHaveVoluntaryParticipation:jr:requiredMsg">
+            <value>Please, this question is mandatory</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/backgroundInformationNote:label">
+            <value>This information is just requested for statistical purpossed</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays/monday:label">
+            <value>Monday</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/currentWork:jr:requiredMsg">
+            <value>Please, tell us which is your current position</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/iGotInformed:jr:requiredMsg">
+            <value>Please, this question is mandatory</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/personalData/yearOfBorn:label">
+            <value>I was born in:</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities/iDisagree:label">
+            <value>I disagree</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/usefulSystemForDailyOperation/iAgree:label">
+            <value>I agree</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveNewBetterWays/iDisagree:label">
+            <value>I disagree</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/usefulSystemForDailyOperation/iStronglyDisagree:label">
+            <value>I strongly disagree</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/systemDecreasesWorkload/iDisagree:label">
+            <value>I disagree</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays:label">
+            <value>Which days do you work a week?</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/systemDecreasesWorkload/iStronglyDisagree:label">
+            <value>I strongly disagree</value>
+          </text>
+        </translation>
+        <translation lang="Español">
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/yearsWorking:jr:requiredMsg">
+            <value>Por favor, díganos cuanto hace que trabaja en su puesto actual.</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/systemDecreasesWorkload:label">
+            <value>El sistema reduce mi carga de trabajo (en caso negativo, significa que requiere más esfuerzo).</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/personalData/gender/female:label">
+            <value>Femenino</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveNewBetterWays:label">
+            <value>El sistema incrementa las posibilidades de desarrollar nuevos y mejores modos de hacer mi trabajo.</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveNewBetterWays/neitherAgreeNorDisagree:label">
+            <value>No tengo opinión</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/personalData:jr:requiredMsg">
+            <value>Datos Personales:</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities/neitherAgreeNorDisagree:label">
+            <value>No tengo opinión</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/currentWork:label">
+            <value>En la actualidad trabajo de:</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities/iAgree:label">
+            <value>De acuerdo</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/iGotInformed/0:label">
+            <value>No</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation:label">
+            <value>Información Estadística</value>
+          </text>
+          <text id="/BasicExample_6.0/Video_Example:label">
+            <value form="video">jr://video/-</value>
+            <value>-</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData:jr:requiredMsg">
+            <value>Datos Puesto de Trabajo:</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays/tuesday:label">
+            <value>Martes</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/iHaveVoluntaryParticipation:label">
+            <value>Participo voluntariamente</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities:label">
+            <value>El sistema incrementa las posibilidades de hacer algo usando mis habilidades.</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer:label">
+            <value>Aceptación de la Encuesta</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveNewBetterWays/iStronglyAgree:label">
+            <value>I strongly agree</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveNewBetterWays/iStronglyDisagree:label">
+            <value>Completamente en Desacuerdo</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/iGotInformed/1:label">
+            <value>Sí</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/iGotInformed:label">
+            <value>He sido informado del propósito de esta encuesta</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/multipleChoiceNote:label">
+            <value>Contestando positivamente estas preguntas estoy acceptando que participo voluntariamente en esta encuesta.</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays/wednesday:label">
+            <value>Miércoles</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays/sunday:label">
+            <value>Domingo</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/personalData/gender:label">
+            <value>Soy:</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/iHaveVoluntaryParticipation/1:label">
+            <value>Sí</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/systemDecreasesWorkload/iStronglyAgree:label">
+            <value>I strongly agree</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveNewBetterWays/iAgree:label">
+            <value>De acuerdo</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/systemDecreasesWorkload/iAgree:label">
+            <value>De acuerdo</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/availableTime:label">
+            <value>Estaré disponible:</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities/iStronglyAgree:label">
+            <value>I strongly agree</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/yearsWorking:jr:constraintMsg">
+            <value>(0, años en la empresa] años</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/currentWork:hint">
+            <value>Por favor, describa su trabajo en pocas palabras.</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays/monday:hint">
+            <value>Por favor, marque esta casilla si trabaja el Lunes</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/yearsWorking:label">
+            <value>Trabajo aquí desde hace</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/iHaveVoluntaryParticipation/0:label">
+            <value>No</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/usefulSystemForDailyOperation/iStronglyAgree:label">
+            <value>I strongly agree</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/personalData/gender/male:label">
+            <value>Masculino</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities/iStronglyDisagree:label">
+            <value>Completamente en Desacuerdo</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays/friday:label">
+            <value>Viernes</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/usefulSystemForDailyOperation/neitherAgreeNorDisagree:label">
+            <value>No tengo opinión</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/usefulSystemForDailyOperation/iDisagree:label">
+            <value>En desacuerdo</value>
+          </text>
+          <text id="/BasicExample_6.0/Picture_example:label">
+            <value form="image">jr://images/-</value>
+            <value>-</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/systemDecreasesWorkload/neitherAgreeNorDisagree:label">
+            <value>No tengo opinión</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays/saturday:label">
+            <value>Sábado</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays/thursday:label">
+            <value>Jueves</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/usefulSystemForDailyOperation:label">
+            <value>En general, el sistema responde a las necesidades del trabajo diario</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workingHereFor:label">
+            <value>Trabajo aquí desde hace</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/yearsInCompany:label">
+            <value>Años en la empresa:</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/iHaveVoluntaryParticipation:jr:requiredMsg">
+            <value>Por favor, conteste a esta pregunta es obligatorio</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/backgroundInformationNote:label">
+            <value>Está información sólo es requerida con propósitos estadísticos</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays/monday:label">
+            <value>Lunes</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/currentWork:jr:requiredMsg">
+            <value>Por favor, díganos que puesto ocupa en la actualidad</value>
+          </text>
+          <text id="/BasicExample_6.0/surveyDisclamer/iGotInformed:jr:requiredMsg">
+            <value>Por favor, conteste a esta pregunta es obligatorio</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/personalData/yearOfBorn:label">
+            <value>Nací:</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/TAMPerceivedUSelfunesNote:label">
+            <value>TAM Adecuación Percivida</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/usefulSystemForDailyOperation/iAgree:label">
+            <value>De acuerdo</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveNewBetterWays/iDisagree:label">
+            <value>En desacuerdo</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities/iDisagree:label">
+            <value>En desacuerdo</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/usefulSystemForDailyOperation/iStronglyDisagree:label">
+            <value>Completamente en Desacuerdo</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/systemDecreasesWorkload/iDisagree:label">
+            <value>En desacuerdo</value>
+          </text>
+          <text id="/BasicExample_6.0/backgroundInformation/workingData/workDays:label">
+            <value>¿Qué días de la semana trabaja?</value>
+          </text>
+          <text id="/BasicExample_6.0/survey/systemDecreasesWorkload/iStronglyDisagree:label">
+            <value>Completamente en Desacuerdo</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <BasicExample_6.0 id="forms.wp6.f4w.itainnova.es:BasicExample_6.0" version="2017011801">
+          <start/>
+          <end/>
+          <today/>
+          <deviceid/>
+          <simserial/>
+          <phonenumber/>
+          <backgroundInformation>
+            <backgroundInformationNote/>
+            <personalData>
+              <yearOfBorn>2016-11-22</yearOfBorn>
+              <gender>male</gender>
+            </personalData>
+            <workingData>
+              <yearsInCompany>1</yearsInCompany>
+              <currentWork>Team Leader</currentWork>
+              <workingHereFor/>
+              <yearsWorking/>
+              <workDays>monday tuesday friday</workDays>
+            </workingData>
+          </backgroundInformation>
+          <surveyDisclamer>
+            <multipleChoiceNote/>
+            <iHaveVoluntaryParticipation/>
+            <iGotInformed/>
+            <availableTime>1.5</availableTime>
+          </surveyDisclamer>
+          <survey>
+            <TAMPerceivedUSelfunesNote/>
+            <usefulSystemForDailyOperation>neitherAgreeNorDisagree</usefulSystemForDailyOperation>
+            <systemDecreasesWorkload>neitherAgreeNorDisagree</systemDecreasesWorkload>
+            <improveDoSomethingMakingUseAbilities>neitherAgreeNorDisagree</improveDoSomethingMakingUseAbilities>
+            <improveNewBetterWays>neitherAgreeNorDisagree</improveNewBetterWays>
+          </survey>
+          <Picture_example/>
+          <Video_Example/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </BasicExample_6.0>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/BasicExample_6.0/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/BasicExample_6.0/end" type="dateTime"/>
+      <bind jr:preload="date" jr:preloadParams="today" nodeset="/BasicExample_6.0/today" type="date"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/BasicExample_6.0/deviceid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="simserial" nodeset="/BasicExample_6.0/simserial" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/BasicExample_6.0/phonenumber" type="string"/>
+      <bind nodeset="/BasicExample_6.0/backgroundInformation/backgroundInformationNote" readonly="true()" type="string"/>
+      <bind jr:requiredMsg="jr:itext('/BasicExample_6.0/backgroundInformation/personalData:jr:requiredMsg')" nodeset="/BasicExample_6.0/backgroundInformation/personalData"/>
+      <bind nodeset="/BasicExample_6.0/backgroundInformation/personalData/yearOfBorn" required="true()" type="date"/>
+      <bind nodeset="/BasicExample_6.0/backgroundInformation/personalData/gender" required="true()" type="select1"/>
+      <bind jr:requiredMsg="jr:itext('/BasicExample_6.0/backgroundInformation/workingData:jr:requiredMsg')" nodeset="/BasicExample_6.0/backgroundInformation/workingData"/>
+      <bind nodeset="/BasicExample_6.0/backgroundInformation/workingData/yearsInCompany" required="true()" type="int"/>
+      <bind jr:requiredMsg="jr:itext('/BasicExample_6.0/backgroundInformation/workingData/currentWork:jr:requiredMsg')" nodeset="/BasicExample_6.0/backgroundInformation/workingData/currentWork" required="true()" type="string"/>
+      <bind calculate=" /BasicExample_6.0/backgroundInformation/workingData/yearsInCompany " nodeset="/BasicExample_6.0/backgroundInformation/workingData/workingHereFor" readonly="true()" type="string"/>
+      <bind calculate=" /BasicExample_6.0/backgroundInformation/workingData/yearsInCompany " constraint="(. &gt;=0) and (. &lt;= ../yearsInCompany)" jr:constraintMsg="jr:itext('/BasicExample_6.0/backgroundInformation/workingData/yearsWorking:jr:constraintMsg')" jr:requiredMsg="jr:itext('/BasicExample_6.0/backgroundInformation/workingData/yearsWorking:jr:requiredMsg')" nodeset="/BasicExample_6.0/backgroundInformation/workingData/yearsWorking" required="true()" type="int"/>
+      <bind nodeset="/BasicExample_6.0/backgroundInformation/workingData/workDays" type="select"/>
+      <bind nodeset="/BasicExample_6.0/surveyDisclamer/multipleChoiceNote" readonly="true()" type="string"/>
+      <bind jr:requiredMsg="jr:itext('/BasicExample_6.0/surveyDisclamer/iHaveVoluntaryParticipation:jr:requiredMsg')" nodeset="/BasicExample_6.0/surveyDisclamer/iHaveVoluntaryParticipation" required="true()" type="select1"/>
+      <bind jr:requiredMsg="jr:itext('/BasicExample_6.0/surveyDisclamer/iGotInformed:jr:requiredMsg')" nodeset="/BasicExample_6.0/surveyDisclamer/iGotInformed" required="true()" type="select1"/>
+      <bind nodeset="/BasicExample_6.0/surveyDisclamer/availableTime" type="decimal"/>
+      <bind nodeset="/BasicExample_6.0/survey" relevant="( /BasicExample_6.0/surveyDisclamer/iHaveVoluntaryParticipation =1) and (  /BasicExample_6.0/surveyDisclamer/iGotInformed =1)"/>
+      <bind nodeset="/BasicExample_6.0/survey/TAMPerceivedUSelfunesNote" readonly="true()" type="string"/>
+      <bind nodeset="/BasicExample_6.0/survey/usefulSystemForDailyOperation" type="select1"/>
+      <bind nodeset="/BasicExample_6.0/survey/systemDecreasesWorkload" required="true()" type="select1"/>
+      <bind nodeset="/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities" required="true()" type="select1"/>
+      <bind nodeset="/BasicExample_6.0/survey/improveNewBetterWays" required="true()" type="select1"/>
+      <bind nodeset="/BasicExample_6.0/Picture_example" readonly="true()" type="string"/>
+      <bind nodeset="/BasicExample_6.0/Video_Example" readonly="true()" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/BasicExample_6.0/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/BasicExample_6.0/backgroundInformation">
+      <label ref="jr:itext('/BasicExample_6.0/backgroundInformation:label')"/>
+      <input ref="/BasicExample_6.0/backgroundInformation/backgroundInformationNote">
+        <label ref="jr:itext('/BasicExample_6.0/backgroundInformation/backgroundInformationNote:label')"/>
+      </input>
+      <group appearance="field-list" ref="/BasicExample_6.0/backgroundInformation/personalData">
+        <label>Personal Data</label>
+        <input ref="/BasicExample_6.0/backgroundInformation/personalData/yearOfBorn">
+          <label ref="jr:itext('/BasicExample_6.0/backgroundInformation/personalData/yearOfBorn:label')"/>
+        </input>
+        <select1 ref="/BasicExample_6.0/backgroundInformation/personalData/gender">
+          <label ref="jr:itext('/BasicExample_6.0/backgroundInformation/personalData/gender:label')"/>
+          <item>
+            <label ref="jr:itext('/BasicExample_6.0/backgroundInformation/personalData/gender/male:label')"/>
+            <value>male</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/BasicExample_6.0/backgroundInformation/personalData/gender/female:label')"/>
+            <value>female</value>
+          </item>
+        </select1>
+      </group>
+      <group appearance="field-table" ref="/BasicExample_6.0/backgroundInformation/workingData">
+        <label>Working data:</label>
+        <input ref="/BasicExample_6.0/backgroundInformation/workingData/yearsInCompany">
+          <label ref="jr:itext('/BasicExample_6.0/backgroundInformation/workingData/yearsInCompany:label')"/>
+        </input>
+        <input ref="/BasicExample_6.0/backgroundInformation/workingData/currentWork">
+          <label ref="jr:itext('/BasicExample_6.0/backgroundInformation/workingData/currentWork:label')"/>
+          <hint ref="jr:itext('/BasicExample_6.0/backgroundInformation/workingData/currentWork:hint')"/>
+        </input>
+        <input ref="/BasicExample_6.0/backgroundInformation/workingData/workingHereFor">
+          <label ref="jr:itext('/BasicExample_6.0/backgroundInformation/workingData/workingHereFor:label')"/>
+        </input>
+        <input ref="/BasicExample_6.0/backgroundInformation/workingData/yearsWorking">
+          <label ref="jr:itext('/BasicExample_6.0/backgroundInformation/workingData/yearsWorking:label')"/>
+          <hint>Please, tell us how long do you have been in this position</hint>
+        </input>
+        <select ref="/BasicExample_6.0/backgroundInformation/workingData/workDays">
+          <label ref="jr:itext('/BasicExample_6.0/backgroundInformation/workingData/workDays:label')"/>
+          <item>
+            <label ref="jr:itext('/BasicExample_6.0/backgroundInformation/workingData/workDays/monday:label')"/>
+            <value>monday</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/BasicExample_6.0/backgroundInformation/workingData/workDays/tuesday:label')"/>
+            <value>tuesday</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/BasicExample_6.0/backgroundInformation/workingData/workDays/wednesday:label')"/>
+            <value>wednesday</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/BasicExample_6.0/backgroundInformation/workingData/workDays/thursday:label')"/>
+            <value>thursday</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/BasicExample_6.0/backgroundInformation/workingData/workDays/friday:label')"/>
+            <value>friday</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/BasicExample_6.0/backgroundInformation/workingData/workDays/saturday:label')"/>
+            <value>saturday</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/BasicExample_6.0/backgroundInformation/workingData/workDays/sunday:label')"/>
+            <value>sunday</value>
+          </item>
+        </select>
+      </group>
+    </group>
+    <group ref="/BasicExample_6.0/surveyDisclamer">
+      <label ref="jr:itext('/BasicExample_6.0/surveyDisclamer:label')"/>
+      <input ref="/BasicExample_6.0/surveyDisclamer/multipleChoiceNote">
+        <label ref="jr:itext('/BasicExample_6.0/surveyDisclamer/multipleChoiceNote:label')"/>
+      </input>
+      <select1 ref="/BasicExample_6.0/surveyDisclamer/iHaveVoluntaryParticipation">
+        <label ref="jr:itext('/BasicExample_6.0/surveyDisclamer/iHaveVoluntaryParticipation:label')"/>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/surveyDisclamer/iHaveVoluntaryParticipation/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/surveyDisclamer/iHaveVoluntaryParticipation/0:label')"/>
+          <value>0</value>
+        </item>
+      </select1>
+      <select1 ref="/BasicExample_6.0/surveyDisclamer/iGotInformed">
+        <label ref="jr:itext('/BasicExample_6.0/surveyDisclamer/iGotInformed:label')"/>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/surveyDisclamer/iGotInformed/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/surveyDisclamer/iGotInformed/0:label')"/>
+          <value>0</value>
+        </item>
+      </select1>
+      <input ref="/BasicExample_6.0/surveyDisclamer/availableTime">
+        <label ref="jr:itext('/BasicExample_6.0/surveyDisclamer/availableTime:label')"/>
+      </input>
+    </group>
+    <group ref="/BasicExample_6.0/survey">
+      <label>survey</label>
+      <input ref="/BasicExample_6.0/survey/TAMPerceivedUSelfunesNote">
+        <label ref="jr:itext('/BasicExample_6.0/survey/TAMPerceivedUSelfunesNote:label')"/>
+      </input>
+      <select1 ref="/BasicExample_6.0/survey/usefulSystemForDailyOperation">
+        <label ref="jr:itext('/BasicExample_6.0/survey/usefulSystemForDailyOperation:label')"/>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/usefulSystemForDailyOperation/iStronglyDisagree:label')"/>
+          <value>iStronglyDisagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/usefulSystemForDailyOperation/iDisagree:label')"/>
+          <value>iDisagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/usefulSystemForDailyOperation/neitherAgreeNorDisagree:label')"/>
+          <value>neitherAgreeNorDisagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/usefulSystemForDailyOperation/iAgree:label')"/>
+          <value>iAgree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/usefulSystemForDailyOperation/iStronglyAgree:label')"/>
+          <value>iStronglyAgree</value>
+        </item>
+      </select1>
+      <select1 ref="/BasicExample_6.0/survey/systemDecreasesWorkload">
+        <label ref="jr:itext('/BasicExample_6.0/survey/systemDecreasesWorkload:label')"/>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/systemDecreasesWorkload/iStronglyDisagree:label')"/>
+          <value>iStronglyDisagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/systemDecreasesWorkload/iDisagree:label')"/>
+          <value>iDisagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/systemDecreasesWorkload/neitherAgreeNorDisagree:label')"/>
+          <value>neitherAgreeNorDisagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/systemDecreasesWorkload/iAgree:label')"/>
+          <value>iAgree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/systemDecreasesWorkload/iStronglyAgree:label')"/>
+          <value>iStronglyAgree</value>
+        </item>
+      </select1>
+      <select1 ref="/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities">
+        <label ref="jr:itext('/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities:label')"/>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities/iStronglyDisagree:label')"/>
+          <value>iStronglyDisagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities/iDisagree:label')"/>
+          <value>iDisagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities/neitherAgreeNorDisagree:label')"/>
+          <value>neitherAgreeNorDisagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities/iAgree:label')"/>
+          <value>iAgree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/improveDoSomethingMakingUseAbilities/iStronglyAgree:label')"/>
+          <value>iStronglyAgree</value>
+        </item>
+      </select1>
+      <select1 ref="/BasicExample_6.0/survey/improveNewBetterWays">
+        <label ref="jr:itext('/BasicExample_6.0/survey/improveNewBetterWays:label')"/>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/improveNewBetterWays/iStronglyDisagree:label')"/>
+          <value>iStronglyDisagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/improveNewBetterWays/iDisagree:label')"/>
+          <value>iDisagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/improveNewBetterWays/neitherAgreeNorDisagree:label')"/>
+          <value>neitherAgreeNorDisagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/improveNewBetterWays/iAgree:label')"/>
+          <value>iAgree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/BasicExample_6.0/survey/improveNewBetterWays/iStronglyAgree:label')"/>
+          <value>iStronglyAgree</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/BasicExample_6.0/Picture_example">
+      <label ref="jr:itext('/BasicExample_6.0/Picture_example:label')"/>
+    </input>
+    <input ref="/BasicExample_6.0/Video_Example">
+      <label ref="jr:itext('/BasicExample_6.0/Video_Example:label')"/>
+    </input>
+  </h:body>
+</h:html>

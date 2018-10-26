@@ -1,0 +1,69 @@
+<?xml version='1.0' ?>
+<BasicExample_7.0 id="forms.wp6.f4w.itainnova.es:BasicExample_7.0" version="2017011801">
+	<start>2017-01-19T08:42:24.235+01</start>
+	<end>2017-01-19T08:43:38.523+01</end>
+	<today>2017-01-19</today>
+	<deviceid>357379060342356</deviceid>
+	<simserial>8934013171450150608</simserial>
+	<phonenumber />
+	<backgroundInformation>
+		<backgroundInformationNote />
+		<personalData>
+			<yearOfBorn>2016-11-09</yearOfBorn>
+			<gender>male</gender>
+		</personalData>
+		<workingData>
+			<yearsInCompany>1</yearsInCompany>
+			<currentWork>Team Leader</currentWork>
+			<workingHereFor>1</workingHereFor>
+			<yearsWorking>1</yearsWorking>
+			<workDays>monday tuesday friday</workDays>
+		</workingData>
+		<previousExperience>
+			<previousJob>Sdfg</previousJob>
+			<previousCompany>Sdfg</previousCompany>
+			<beginning>2004-01-01</beginning>
+			<end>1999-01-01</end>
+		</previousExperience>
+		<previousExperience>
+			<previousJob>Djfnf</previousJob>
+			<previousCompany>Fmghk</previousCompany>
+			<beginning>2012-01-01</beginning>
+			<end>2013-01-01</end>
+		</previousExperience>
+		<previousExperience>
+			<previousJob>Gkfnfcj</previousJob>
+			<previousCompany>Fnfkffm</previousCompany>
+			<beginning>2014-01-01</beginning>
+			<end>2015-01-01</end>
+		</previousExperience>
+		<familyData_count>3</familyData_count>
+		<familyData>
+			<kinship>mother</kinship>
+		</familyData>
+		<familyData>
+			<kinship>uncle</kinship>
+		</familyData>
+		<familyData>
+			<kinship>sibling</kinship>
+		</familyData>
+	</backgroundInformation>
+	<surveyDisclamer>
+		<multipleChoiceNote />
+		<iHaveVoluntaryParticipation>1</iHaveVoluntaryParticipation>
+		<iGotInformed>1</iGotInformed>
+		<availableTime>1.5</availableTime>
+	</surveyDisclamer>
+	<survey>
+		<TAMPerceivedUSelfunesNote />
+		<usefulSystemForDailyOperation>iStronglyDisagree</usefulSystemForDailyOperation>
+		<systemDecreasesWorkload>iDisagree</systemDecreasesWorkload>
+		<improveDoSomethingMakingUseAbilities>neitherAgreeNorDisagree</improveDoSomethingMakingUseAbilities>
+		<improveNewBetterWays>iAgree</improveNewBetterWays>
+	</survey>
+	<Picture_example />
+	<Video_Example />
+	<meta>
+		<instanceID>uuid:b90ec602-e568-4f04-88de-8fe185eaeae8</instanceID>
+	</meta>
+</BasicExample_7.0>
